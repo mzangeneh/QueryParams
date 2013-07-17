@@ -78,6 +78,7 @@ type
   TLikeParam = class(TCustomLikeParam)
   public
   published
+    property Anchors;
     property Field;
     property LikeType;
     property Query;
@@ -88,6 +89,7 @@ type
   TDateParam = class(TCustomDateParam)
   public
   published
+    property Anchors;
     property Field;
     property DateType;
     property Query;

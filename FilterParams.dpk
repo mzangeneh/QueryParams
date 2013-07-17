@@ -30,7 +30,8 @@ package FilterParams;
 requires
   rtl,
   vcl,
-  dbrtl;
+  dbrtl,
+  SolarCalendarPack;
 
 contains
   FilterParams in 'FilterParams.pas';
